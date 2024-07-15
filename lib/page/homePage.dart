@@ -18,7 +18,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       resizeToAvoidBottomInset: true,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.transparent,
         title: const Text('NOTE'),
       ),
       body: StreamBuilder(
