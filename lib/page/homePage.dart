@@ -19,7 +19,7 @@ class _HomepageState extends State<Homepage> {
       resizeToAvoidBottomInset: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text('NOTE'),
+        title: const Text('Aplikasi Catatan'),
       ),
       body: StreamBuilder(
         stream: noteCollection.snapshots(),
